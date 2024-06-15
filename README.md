@@ -1,9 +1,17 @@
 # Froogle
 
-Froogle is a local search engine.
+Froogle is a local search engine. It uses [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) as a metric to rank the search results.
+
+
+
+# Rust crate
+Froogle is available on [crates.io](https://crates.io/crates/froogle). If you have the [Cargo](https://doc.rust-lang.org/cargo/) toolchain setup, you can install froogle using `cargo install`.
+```console
+cargo install froogle
+```
 
 # Install
-Froogle is only available in Homebrew, however, you can build it from source on any platform.
+Platform-specific binaries for Froogle can be installed from the [Releases](https://github.com/tripabhi/froogle/releases) page.
 
 ## MacOS
 Froogle is available as Homebrew formula. To install Froogle -
