@@ -23,7 +23,7 @@ cargo install --path .
 
 
 ## MacOS
-Because Froogle was requested to have PDF support, and the only available library with decent performance and a relatively simple API was (libpoppler)[https://poppler.freedesktop.org/], you'll have to download poppler as a package. It is a large library and takes some time to download, and I apologize for having to depend on this library. I will fix this in future releases.
+Because Froogle was requested to have PDF support, and the only available library with decent performance and a relatively simple API was [libpoppler](https://poppler.freedesktop.org/), you'll have to download poppler as a package. It is a large library and takes some time to download, and I apologize for having to depend on this library. I will fix this in future releases.
 
 To install poppler on MacOS:
 ```console
