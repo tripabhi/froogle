@@ -29,3 +29,7 @@ cargo install --path .
 # Usage
 Use `-h` to see usage instruction.
 
+
+# References
+- Term Frequency - Inverse Document Frequency [Wikipedia](https://en.wikipedia.org/wiki/Tf%E2%80%93idf)
+- Snowball English Stemmers [Website](https://snowballstem.org/)
