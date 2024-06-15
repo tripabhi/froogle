@@ -5,6 +5,7 @@ edition = "2021"
 repository = "https://github.com/tripabhi/froogle"
 description = "A local Search Engine"
 license = "MIT"
+keywords = ["search", "engine", "information retrieval"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
