@@ -3,6 +3,8 @@ name = "froogle"
 version = "0.4.1"
 edition = "2021"
 repository = "https://github.com/tripabhi/froogle"
+description = "A local Search Engine"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
