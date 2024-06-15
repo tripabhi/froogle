@@ -52,8 +52,7 @@ impl<'a> Lexer<'a> {
                 .collect::<String>();
 
             // Word Stemming https://en.wikipedia.org/wiki/Stemming
-            // return Some(stem_token(&token));
-            return Some(token);
+            return Some(stem_token(&token));
         }
         let _ = self.chop_while(|c| !c.is_alphanumeric() && !c.is_whitespace());
         self.next_token()

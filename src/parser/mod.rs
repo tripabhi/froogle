@@ -6,8 +6,6 @@ pub mod html;
 
 pub mod xml;
 
-pub mod markdown;
-
 pub mod pdf;
 
 const BUFFER_CAPACITY: usize = 1024;

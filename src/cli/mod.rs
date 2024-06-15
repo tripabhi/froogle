@@ -31,7 +31,8 @@ pub struct Cli {
 
 fn enable_logger(level: LevelFilter) {
     SimpleLogger::new()
-        .with_level(level)
+        .with_level(LevelFilter::Warn)
+        .with_module_level("froogle", level)
         .init()
         .map_err(|err| {
             eprintln!("Error while setting logger : {err}");
@@ -57,9 +58,9 @@ fn _print_banner() {
 impl Cli {
     pub fn run(&self) -> Result<(), ()> {
         let level = if self.verbose {
-            log::LevelFilter::Debug
+            LevelFilter::Debug
         } else {
-            log::LevelFilter::Info
+            LevelFilter::Info
         };
 
         enable_logger(level);
