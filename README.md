@@ -36,6 +36,10 @@ cargo install --path .
 
 # Usage
 Use `-h` to see usage instruction.
+```
+froogle [OPTIONS] [PATH]
+```
+
 
 
 # References
