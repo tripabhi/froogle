@@ -3,6 +3,8 @@ use std::fs::DirEntry;
 use std::path::{Path, PathBuf};
 use std::time::SystemTime;
 
+/// This utility performs path expansion based on dot, tilde 
+/// and shell based expansions.
 pub fn expand_path(path: impl AsRef<str>) -> Result<PathBuf, ()> {
     let tilde_and_env_expanded_path = shellexpand::full(path.as_ref()).map_err(|err| {
         log::error!(
