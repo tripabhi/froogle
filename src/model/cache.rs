@@ -40,3 +40,4 @@ pub fn get_model(search_path: &Path) -> Option<Model> {
     }
     None
 }
+
