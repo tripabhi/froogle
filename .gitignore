@@ -1,2 +1,4 @@
 /target
 .frcache.json
+
+.DS_Store
